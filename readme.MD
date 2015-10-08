@@ -6,11 +6,11 @@ The IE processing requires the CAPS ca_process database to update it's data. Thi
 ### Installation:
 
 #### Step 1:
-You will need to create 2 databases on your master SQL server.  Call one ca_process and the other ca_search
+You will need to create 2 databases on your master SQL server.  Call one ca_ie_process and the other ca_ie_search
 DROP DATABASE IF EXISTS ca_ie_process;
-CREATE DATABASE ca_process CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE ca_ie_process CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 DROP DATABASE IF EXISTS ca_ie_search;
-CREATE DATABASE ca_search CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+CREATE DATABASE ca_ie_search CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 
 #### Step 2: 
 Create a MySQL user.
